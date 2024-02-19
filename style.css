@@ -121,6 +121,14 @@ nav {
 .containerC .box:hover .content {
   transform: translate(3.5rem, 3.5rem);
 }
+@media (max-width: 565px) {
+  .containerC .box:hover .imgBox {
+    transform: translate(-2rem, -2rem) !important;
+  }
+  .containerC .box:hover .content {
+    transform: translate(2rem, 2rem) !important;
+  }
+}
 
 .imgBox {
   position: absolute;
@@ -181,6 +189,11 @@ nav {
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: 1px;
+}
+@media (max-width: 565px) {
+  .content h2 {
+    font-size: 1.5rem;
+  }
 }
 .content span {
   color: #555;
