@@ -71,7 +71,6 @@ nav {
   margin-top: 6px;
 }
 
-/* Dropdown content (gizli olarak başlar) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -89,7 +88,6 @@ nav {
   }
 }
 
-/* Dropdown linkleri stillemek için CSS */
 .dropdown-content a {
   display: block;
   padding: 10px;
@@ -97,7 +95,6 @@ nav {
   color: #333;
 }
 
-/* Hover olduğunda dropdown içeriğini göster */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -361,14 +358,6 @@ nav {
   display: flex;
   padding: 1% 18% 1% 18%;
 }
-.containerPropA {
-  background-color: #15203b;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  padding: 1% 18% 1% 18%;
-}
 
 @media (max-width: 1200px) {
   .titleArea h4 {
@@ -394,105 +383,6 @@ nav {
   justify-content: center;
   margin: 15px 0;
 }
-.boxes {
-  background-color: #15203b;
-  width: 100%;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 1% 18% 1% 18%;
-}
-.box1 {
-  width: 90%;
-  height: 100%;
-  margin: 0px 14px;
-  transition: 1s;
-}
-.box1:hover {
-  transform: scale(1.2);
-  z-index: 2;
-  content: url(assets/baykar/bayraktar-akinci-alttan.png);
-}
-
-.box2 {
-  width: 100%;
-  height: 100%;
-  margin: 0px 14px;
-  transition: 1s;
-}
-.box2:hover {
-  transform: scale(1.2);
-  z-index: 2;
-  content: url(assets/togg/togg_.jpg);
-}
-.kutu {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-
-.kutu img {
-  width: 100%; /* Resmi kutunun genişliği kadar genişlet */
-  height: 100%; /* Resmi kutunun yüksekliği kadar yükselt */
-  transition: transform 0.3s ease;
-}
-.kutu .hover-resim {
-  display: none; /* Hover resmi varsayılan olarak gizle */
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* .kutu:hover img {
-  transform: scale(1.2);
-} */
-.kutu:hover .hover-resim {
-  display: block; /* Hover durumunda hover resmini göster */
-}
-
-.kutu a {
-  display: block; /* Bağlantıyı kutu geneline yaymak için */
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; /* Diğer resmin üzerine geleceği için z-index kullanın */
-}
-
-.kutu1 {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-
-.kutu1 img {
-  width: 100%; /* Resmi kutunun genişliği kadar genişlet */
-  height: 100%; /* Resmi kutunun yüksekliği kadar yükselt */
-  transition: transform 0.3s ease;
-}
-.kutu1 .hover-resim {
-  display: none; /* Hover resmi varsayılan olarak gizle */
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.kutu1:hover .hover-resim {
-  display: block; /* Hover durumunda hover resmini göster */
-}
-
-.kutu1 a {
-  display: block; /* Bağlantıyı kutu geneline yaymak için */
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; /* Diğer resmin üzerine geleceği için z-index kullanın */
-}
-/* .kutu1:hover img {
-  transform: scale(1.2);
-} */
 
 .background {
   z-index: 10;
